@@ -58,3 +58,5 @@ Performance will be compared against baseline chunking methods (e.g., Recursive 
 *   Tune parameters (`theta_specific`, `theta_broad`, prompts).
 *   Analyze results and iterate.
 *   create project structure
+*   (Optional Analysis): Compare doc_specific_chunks and doc_broad_chunks (e.g., count, average length) to verify the process created structurally different outputs.
+
