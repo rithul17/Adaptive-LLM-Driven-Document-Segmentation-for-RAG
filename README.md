@@ -49,4 +49,12 @@ The effectiveness of the retrieval component will be measured using standard inf
 
 Performance will be compared against baseline chunking methods (e.g., Recursive Character Splitting, Paragraph Splitting) run on the same dataset.
 
-## Project Structure (Conceptual)
+## TODO / Future Work
+*   Implement core chunking logic.
+*   Develop and test prompt strategies (including few-shot) for dual granularity.
+*   Implement LLM query classification.
+*   Set up embedding and vector DB pipeline.
+*   Implement evaluation workflow and baseline comparisons.
+*   Tune parameters (`theta_specific`, `theta_broad`, prompts).
+*   Analyze results and iterate.
+*   create project structure
