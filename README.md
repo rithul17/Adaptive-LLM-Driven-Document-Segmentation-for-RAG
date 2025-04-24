@@ -37,26 +37,5 @@ The goal is to enhance RAG performance by better aligning the granularity of ret
 
 Evaluation is planned using standard QA datasets suitable for retrieval evaluation. The primary candidate is:
 
-*   **GutenQA:** (Recommended for direct comparison with LumberChunker) - Consists of 100 narrative books from Project Gutenberg and 3000 QA pairs.
-*   *(Alternatively: SQuAD or other relevant QA datasets could be used, requiring baseline comparisons on that specific dataset).*
-
-## Evaluation
-
-The effectiveness of the retrieval component will be measured using standard information retrieval metrics:
-
-*   **Recall@k**
-*   **(n)DCG@k**
-
-Performance will be compared against baseline chunking methods (e.g., Recursive Character Splitting, Paragraph Splitting) run on the same dataset.
-
-## TODO / Future Work
-*   Implement core chunking logic.
-*   Develop and test prompt strategies (including few-shot) for dual granularity.
-*   Implement LLM query classification.
-*   Set up embedding and vector DB pipeline.
-*   Implement evaluation workflow and baseline comparisons.
-*   Tune parameters (`theta_specific`, `theta_broad`, prompts).
-*   Analyze results and iterate.
-*   create project structure
-*   (Optional Analysis): Compare doc_specific_chunks and doc_broad_chunks (e.g., count, average length) to verify the process created structurally different outputs.
+*   **NarrativeQA## Evaluation
 
