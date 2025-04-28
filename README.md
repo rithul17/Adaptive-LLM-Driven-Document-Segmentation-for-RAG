@@ -33,9 +33,5 @@ The goal is to enhance RAG performance by better aligning the granularity of ret
     *   Retrieve top-k relevant chunks.
     *   (Implicit) Pass chunks and query to a generator LLM for the final RAG response.
 
-## Dataset
-
-Evaluation is planned using standard QA datasets suitable for retrieval evaluation. The primary candidate is:
-
-*   **NarrativeQA## Evaluation
-
+## dataset 
+- used narrative QA 
